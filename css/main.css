@@ -1,0 +1,109 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+/* Desktop */
+
+@media (min-width: 801px) {
+  .f1-l {
+    margin-bottom: 10px;
+  }
+  .f2 {
+    font-weight: 600;
+    max-width: 650px;
+  }
+  .background {
+    background-color: #f2f1f1;
+  }
+  .main {
+    display: grid;
+    grid-template-columns: 650px;
+    margin: 25px 0px 25px 0px;
+
+    font-family: "Avenir next", system sans-serif;
+    color: #ee3b26;
+    line-height: 25px;
+  }
+  .margin-ns {
+    margin-left: 150px;
+    margin-top: 0px;
+  }
+  .pull-quote {
+    font-family: "Avenir next", system sans-serif;
+    color: #ee3b26;
+    line-height: normal;
+    max-width: 650px;
+  }
+  .header {
+    font-family: "Avenir next", system sans-serif;
+    color: #ee3b26;
+    margin-left: 150px;
+    max-width: 650px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 325px 550px auto;
+    grid-gap: 25px;
+    margin: 25px 0px 0px 190px;
+    font-family: "avenir next", system sans-serif;
+    line-height: normal;
+    color: #ee3b26;
+  }
+  .tweet {
+    margin: 25px 0px 0px 230px;
+    max-width: 500px;
+    color: #ee3b26;
+  }
+}
+
+/* Medium Screen */
+
+/* Small Screen */
+
+@media (max-width: 800px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 50px 0px 50px 0px;
+
+    font-family: "Avenir next", system sans-serif;
+    color: #ee3b26;
+    line-height: 125%;
+  }
+  .margin-ns {
+    margin: 0px 50px 0px 50px;
+    margin-top: 0px;
+  }
+  .pull-quote {
+    font-family: "Avenir next", system sans-serif;
+    color: #ee3b26;
+    line-height: normal;
+    max-height: auto;
+  }
+  .header {
+    font-family: "Avenir next", system sans-serif;
+    color: #ee3b26;
+    margin-left: 50px;
+    max-width: 600px;
+  }
+  .f3 {
+    margin-right: 50px;
+  }
+  .f6 {
+    margin-right: 50px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
+    margin: 25px 50px 0px 50px;
+    font-family: "avenir next", system sans-serif;
+    line-height: normal;
+    color: #ee3b26;
+  }
+  .tweet {
+    margin: 25px 50px 0px 50px;
+    max-width: 1fr;
+    color: #ee3b26;
+  }
+}
